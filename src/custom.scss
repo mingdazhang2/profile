@@ -1,0 +1,11 @@
+/* make the customizations */
+$theme-colors: (
+    "info": tomato,
+    "danger": teal,
+    "primary":#2C3E50
+);
+
+@import "react-bootstrap-range-slider/dist/react-bootstrap-range-slider.scss";
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
